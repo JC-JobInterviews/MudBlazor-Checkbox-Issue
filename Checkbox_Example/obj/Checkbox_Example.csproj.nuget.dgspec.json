@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jheath\\source\\repos\\Checkbox_Example\\Checkbox_Example\\Checkbox_Example.csproj": {}
+    "C:\\Users\\jheath\\Downloads\\Checkbox_Example\\Checkbox_Example\\Checkbox_Example.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jheath\\source\\repos\\Checkbox_Example\\Checkbox_Example\\Checkbox_Example.csproj": {
+    "C:\\Users\\jheath\\Downloads\\Checkbox_Example\\Checkbox_Example\\Checkbox_Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jheath\\source\\repos\\Checkbox_Example\\Checkbox_Example\\Checkbox_Example.csproj",
+        "projectUniqueName": "C:\\Users\\jheath\\Downloads\\Checkbox_Example\\Checkbox_Example\\Checkbox_Example.csproj",
         "projectName": "Checkbox_Example",
-        "projectPath": "C:\\Users\\jheath\\source\\repos\\Checkbox_Example\\Checkbox_Example\\Checkbox_Example.csproj",
+        "projectPath": "C:\\Users\\jheath\\Downloads\\Checkbox_Example\\Checkbox_Example\\Checkbox_Example.csproj",
         "packagesPath": "C:\\Users\\jheath\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jheath\\source\\repos\\Checkbox_Example\\Checkbox_Example\\obj\\",
+        "outputPath": "C:\\Users\\jheath\\Downloads\\Checkbox_Example\\Checkbox_Example\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jheath\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[7.15.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
